@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="./../CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./../JS/validate.js"></script>
+    <script src="./../JS/AJAX.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>User Registration Form</h2>
+        <form id="myForm" action="#" method="post" onsubmit="return validateForm(false)">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="lastname">lastname:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="newsletter">Subscribe to newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        <h2>User Info</h2>
+        <input type="text" id="userIdInput" placeholder="Enter User ID">
+        <button class="button" onclick="getUserInfo()">Get User Info</button>
+        <p id="userInfo"></p>
+    </div>
+    <script src="./../JS/AJAX2.js"></script>
+</body>
+</html>
