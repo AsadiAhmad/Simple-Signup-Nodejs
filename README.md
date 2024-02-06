@@ -3,3 +3,5 @@
 install xampp and run Apache and MySQL
 
 <img src="Capture.JPG">
+
+<img src="1.JPG">
