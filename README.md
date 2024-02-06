@@ -6,18 +6,19 @@ install xampp and run Apache and MySQL
 
 
 ## run this command:
+
 |/n
 |---for npm libraries:
 |   |
-|   |--**npm install body-parser**
-|   |--```npm install express```
-|   |--```npm install mysql```
-|   |--```npm install path```
+|   |--npm install body-parser
+|   |--npm install express
+|   |--npm install mysql
+|   |--npm install path
 |
 |
 |---for running server:
     |
-    |--```node app.js```
+    |--node app.js
 
 
 <img src="2.JPG">
