@@ -4,6 +4,16 @@
 
 <img src="1.JPG" width=400>
 
+## Create table in data base
+
+```
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `username` varchar(255) DEFAULT NULL,
+  `lastname` varchar(255) DEFAULT NULL,
+  `gender` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+```
 
 ## run this command:
 
