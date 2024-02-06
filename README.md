@@ -1,12 +1,12 @@
-# Simple-Signup-Nodejs
+### Simple-Signup-Nodejs
 
 install xampp and run Apache and MySQL
 
 <img src="1.JPG" width=400>
 
-```
-run this command:
-|
+
+## run this command:
+|/n
 |---for npm libraries:
 |   |
 |   |--**npm install body-parser**
@@ -18,7 +18,7 @@ run this command:
 |---for running server:
     |
     |--```node app.js```
-```
+
 
 <img src="2.JPG">
 
