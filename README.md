@@ -1,6 +1,6 @@
 ### Simple-Signup-Nodejs
 
-install xampp and run Apache and MySQL
+## install xampp and run Apache and MySQL
 
 <img src="1.JPG" width=400>
 
