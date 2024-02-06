@@ -8,7 +8,9 @@ install xampp and run Apache and MySQL
 ## run this command:
 
 1. for npm libraries
-   - ```npm install body-parser```
+   - ```
+   - npm install body-parser
+   - ```
    - npm install express
    - npm install mysql
    - npm install path
