@@ -4,6 +4,7 @@ install xampp and run Apache and MySQL
 
 <img src="1.JPG" width=400>
 
+```
 run this command:
 |
 |---for npm libraries:
@@ -17,6 +18,7 @@ run this command:
 |---for running server:
     |
     |--node app.js
+```
 
 <img src="2.JPG">
 
